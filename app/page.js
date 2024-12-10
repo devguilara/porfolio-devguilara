@@ -11,6 +11,7 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
+/*
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=devguilara`);
   if (!res.ok) {
@@ -19,12 +20,17 @@ async function getData() {
   const data = await res.json();
   return data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
 }
+*/
 
 export default function Home() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    getData().then(setBlogs).catch(console.error);
+    async function fetchData() {
+      const data = await getData();
+      setBlogs(data);
+    }
+    fetchData().catch(console.error);
   }, []);
 
   return (
@@ -35,8 +41,9 @@ export default function Home() {
       <Skills />
       <Projects />
       <Education />
-      <Blog blogs={blogs} />
       <ContactSection />
+      {/* Adicione o Blog se precisar */}
+      {/* <Blog blogs={blogs} /> */}
     </>
   );
 }
