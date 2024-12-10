@@ -1,5 +1,7 @@
 // @flow strict
+"use client";
 
+import { useEffect, useState } from "react";
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";

@@ -1,5 +1,7 @@
 // @flow strict
+"use client";
 
+import { useEffect, useState } from "react";
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";

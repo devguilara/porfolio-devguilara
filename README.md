@@ -29,7 +29,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/developer-portfolio.git
+   git clone https://github.com//developer-portfolio.git
    ```
 2. Acesse a pasta do projeto:
    ```bash

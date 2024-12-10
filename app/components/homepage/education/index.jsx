@@ -1,4 +1,7 @@
 // @flow strict
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 import { educations } from "@/utils/data/educations";

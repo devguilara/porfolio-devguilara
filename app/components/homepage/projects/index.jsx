@@ -1,6 +1,8 @@
 import { projectsData } from '@/utils/data/projects-data';
 import ProjectCard from './project-card';
+"use client";
 
+import { useEffect, useState } from "react";
 const Projects = () => {
 
   return (
