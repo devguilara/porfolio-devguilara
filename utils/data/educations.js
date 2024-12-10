@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Análise e Desenvolvimento de Sistemas",
+    duration: "2024 - Present",
+    institution: "Universidade Cruzeiro do Sul",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Formação em Java Backend",
+    duration: "2024",
+    institution: "Unico Skill Content Bundle  e Soul Code Academy",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Formação em Metodologias Ágeis",
+    duration: "2023",
+    institution: "Alura",
   }
 ]

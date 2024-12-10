@@ -6,6 +6,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from '/public/lottie/study.json';
+import {BsFillAwardFill} from "react-icons/bs"
 
 function Education() {
   return (
@@ -27,7 +28,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            Educação
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -71,9 +72,18 @@ function Education() {
                         </div>
                       </div>
                     </div>
+
                   </GlowCard>
                 ))
               }
+              <div className="flex items-center gap-x-8 px-3 py-5">
+                <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+                <BsFillAwardFill size={36} />
+               </div>
+               <div>
+                  <a target="_blank" href="https://cursos.alura.com.br/user/guilherme-ribeiro-almeida-lara/fullCertificate/336631711c9a703a8669bce652b78e3f">Veja mais das minhas certificações</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

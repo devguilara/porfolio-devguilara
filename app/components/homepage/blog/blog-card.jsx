@@ -23,16 +23,6 @@ function BlogCard({ blog }) {
         <div className="flex justify-between items-center text-[#16f2b3] text-sm">
           <p>{timeConverter(blog.published_at)}</p>
           <div className="flex items-center gap-3">
-            <p className="flex items-center gap-1">
-              <BsHeartFill />
-              <span>{blog.public_reactions_count}</span>
-            </p>
-            {blog.comments_count > 0 &&
-              <p className="flex items-center gap-1">
-                <FaCommentAlt />
-                <span>{blog.comments_count}</span>
-              </p>
-            }
           </div>
         </div>
         <Link target='_blank' href={blog.url}>
