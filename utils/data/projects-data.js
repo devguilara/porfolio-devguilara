@@ -26,10 +26,11 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'SGE - Sistema de Cadastro de Eventos',
-        description: 'O sistema de Cadastro de Eventos é uma aplicação desenvolvida em Java utilizando o framework Spring Boot. Ele permite gerenciar eventos e seus convidados de forma eficiente.',
-        tools: ['Java', 'Spring Boot', 'PostgreSQL', 'Hibernate', 'HTML', 'CSS'],
-        code: 'https://github.com/devguilara/sistemaCadastroEventos/tree/main/CadastroEventos',
+        name: 'Spotfy Clone UI',
+        description: 'Clone de UI do Spotify para treinar conceitos do front-end',
+        tools: ['React', 'Node.js', 'Tailwind','HTML', 'CSS'],
+        role: 'Desenvolvimento Front-End',
+        code: 'https://spotify-tailwind-copy-ui.vercel.app/',
         demo: '',
         image: realEstate,
     },
@@ -50,8 +51,8 @@ export const projectsData = [
         description: "Portfólio criado para ter presença online mostrando conhecimentos adquiridos durante toda a jornada na área de tecnologia",
         tools: ['React.js', 'TypeScript', 'HTML', 'CSS', "Tailwind","Next.js"],
         role: 'Desenvolvimento Full Stack',
-        code: 'https://helpingbaby.com.br/',
-        demo: 'https://helpingbaby.com.br/',
+        code: 'https://porfolio-devguilara.vercel.app/',
+        demo: 'https://porfolio-devguilara.vercel.app/',
         image: ayla,
 
     }
