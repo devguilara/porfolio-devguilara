@@ -1,14 +1,22 @@
 export const experiences = [
+
   {
     id: 1,
     title: 'Desenvolvedor Backend Freelancer',
+    company: "Irmãos.dev",
+    duration: "(Dezembro 2024 - Presente)",
+    skills: "Php · API RestFull · Microserviços · Composer · Docker · Load testing with K6 · Swagger "
+  },
+  {
+    id: 2,
+    title: 'Desenvolvedor Backend Freelancer',
     company: "Autônomo",
     duration: "(Jan 2022 - Presente)",
-    skills:"Java · SpringBoot · API RestFull · Microserviços · Hibernate "
+    skills: "Java · SpringBoot · API RestFull · Microserviços · Hibernate "
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Arquiteto de Automações RPA",
     company: "Noebiz Consultoria em Tecnologia",
     duration: "(Abr 2022 - Out 2022)",
@@ -16,7 +24,7 @@ export const experiences = [
 
   },
   {
-    id: 3,
+    id: 4,
     title: "Desenvolvedor FullStack",
     company: "TN Sistemas",
     duration: "(Ago 2021 - Nov 2021)",
@@ -24,7 +32,7 @@ export const experiences = [
 
   },
   {
-    id: 4,
+    id: 5,
     title: "Desenvolvedor Web",
     company: "IndexNet Publicidade Digital",
     duration: "(Set 2020 - Ago 2021)",
