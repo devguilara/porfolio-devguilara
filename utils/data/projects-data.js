@@ -28,7 +28,7 @@ export const projectsData = [
         id: 3,
         name: 'Spotfy Clone UI',
         description: 'Clone de UI do Spotify para treinar conceitos do front-end',
-        tools: ['React', 'Node.js', 'Tailwind','HTML', 'CSS'],
+        tools: ['React', 'Node.js', 'Tailwind', 'HTML', 'CSS'],
         role: 'Desenvolvimento Front-End',
         code: 'https://spotify-tailwind-copy-ui.vercel.app/',
         demo: '',
@@ -42,17 +42,6 @@ export const projectsData = [
         role: 'Desenvolvimento Full Stack',
         code: 'https://helpingbaby.com.br/',
         demo: 'https://helpingbaby.com.br/',
-        image: ayla,
-
-    },
-    {
-        id: 5,
-        name: 'Guilherme Lara Portfólio',
-        description: "Portfólio criado para ter presença online mostrando conhecimentos adquiridos durante toda a jornada na área de tecnologia",
-        tools: ['React.js', 'TypeScript', 'HTML', 'CSS', "Tailwind","Next.js"],
-        role: 'Desenvolvimento Full Stack',
-        code: 'https://porfolio-devguilara.vercel.app/',
-        demo: 'https://porfolio-devguilara.vercel.app/',
         image: ayla,
 
     }
