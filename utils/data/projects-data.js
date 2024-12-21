@@ -44,8 +44,20 @@ export const projectsData = [
         demo: 'https://helpingbaby.com.br/',
         image: ayla,
 
+    },
+    {
+        id: 5,
+        name: 'Mural',
+        description: "Mural App é um software de rede social criada pelo Clube de Desenvolvimento dos IrmãosDev. Essa iniciativa tem como propósito fornecer uma experiência real de desenvolvimento de software em equipe para jovens programadores. Para participar, preencha o formulário: http://eepurl.com/iYwzu6 ",
+        tools: ['PHP', 'Composer', 'React.Js', 'Grafanza K6', 'Laravel', 'Docker'],
+        role: 'Desenvolvimento BackEnd',
+        code: 'https://github.com/irmaos-dev/mural',
+        demo: 'https://github.com/irmaos-dev/mural',
+        image: ayla,
+
     }
 ];
+
 
 
 // Do not remove any property.
