@@ -7,69 +7,55 @@ export const projectsData = [
     {
         id: 1,
         name: 'Biblioteka',
-        description: "Biblioteka REST API é uma aplicação desenvolvida em Java utilizando Spring Boot. Ela oferece uma solução eficiente para gerenciar bibliotecas, permitindo o cadastro de livros, usuários e empréstimos, além de fornecer informações sobre a disponibilidade de livros",
+        description: "Biblioteka REST API é uma aplicação desenvolvida em Java utilizando Spring Boot. Ela oferece uma solução eficiente para gerenciar bibliotecas, permitindo o cadastro de livros, usuários e emprésti1mos, além de fornecer informações sobre a disponibilidade de livros",
         tools: ['Java', 'Spring Boot', 'Spring Data JPA', 'PostgreSQL', 'Maven'],
         role: 'Desenvolvimento Backend',
         code: 'https://github.com/devguilara/biblioteka-restAPI',
-        demo: '',
+        demo: 'https://github.com/devguilara/biblioteka-restAPI',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Cadastros em Laravel',
-        description: 'Este é um sistema CRUD simples desenvolvido em Laravel para gerenciar informações sobre séries de televisão. Com este sistema, você pode realizar operações básicas de criação, leitura, atualização e exclusão (CRUD) de séries',
-        tools: ['PHP', 'Composer', "Laravel", "SQLite3"],
+        name: 'Agrotools',
+        description: 'Projeto de reestruturação do site da Agrotools, utilizando PHP, JS, HTML e CSS, juntamente com Wordpress. Refizemos toda a estrutura e layout do site, inovando, otimizando e buscando melhores resultados em performance e nas buscas do Google.',
+        tools: ['PHP', 'WordPress', 'JavaScript'],
         role: 'Desenvolvimento Full Stack',
-        code: 'https://github.com/devguilara/crud-laravel-series',
-        demo: '',
+        code: 'privado',
+        demo: 'https://agrotools.com.br/',
         image: travel,
     },
     {
         id: 3,
-        name: 'Spotfy Clone UI',
-        description: 'Clone de UI do Spotify para treinar conceitos do front-end',
-        tools: ['React', 'Node.js', 'Tailwind', 'HTML', 'CSS'],
-        role: 'Desenvolvimento Front-End',
-        code: 'https://spotify-tailwind-copy-ui.vercel.app/',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
         name: 'Helping Baby',
-        description: "Sistema WEB criado para listas de presentes on-line ",
+        description: "Sistema WEB criado para listas de presentes on-line para aniversários, casamentos, chás-revelação e outros tipos de eventos",
         tools: ['PHP', 'Vue.Js', 'HTML', 'CSS', "MySql"],
         role: 'Desenvolvimento Full Stack',
-        code: 'https://helpingbaby.com.br/',
+        code: 'privado',
         demo: 'https://helpingbaby.com.br/',
         image: ayla,
 
     },
     {
-        id: 5,
-        name: 'Mural App',
-        description: "Mural App é um software de rede social criada pelo Clube de Desenvolvimento dos IrmãosDev. Essa iniciativa tem como propósito fornecer uma experiência real de desenvolvimento de software em equipe para jovens programadores. Para participar, preencha o formulário: http://eepurl.com/iYwzu6 ",
-        tools: ['PHP', 'Composer', 'React.Js', 'Grafana K6', 'Laravel', 'Docker'],
-        role: 'Desenvolvimento BackEnd',
-        code: 'https://github.com/irmaos-dev/mural',
-        demo: 'https://github.com/irmaos-dev/mural',
-        image: ayla,
+        id: 4,
+        name: 'Obadias Móveis Planejados',
+        description: "Projeto de criação do site da Obadias, utilizando PHP, JS, HTML e CSS, juntamente com Wordpress. Criamos toda a estrutura e layout do site, inovando, otimizando e buscando melhores resultados em performance e nas buscas do Google.",
+        tools: ['PHP', 'WordPress', 'JavaScript'],
+        role: 'Desenvolvimento FullStack',
+        code: 'privado',
+        demo: 'https://www.obadiasplanejados.com.br/',
+        image: crefin,
 
-    }
+    },
+    {
+        id: 5,
+        name: 'VipPlanos',
+        description: "Neste projeto, criei duas páginas para o site Vip, inicialmente a página de Seguros e Benefícios. /insurance-and-benefits/ E a página do Plano de Saúde Premium plans/premium-health-plan/ Usando HTML, CSS e JS, fiz toda a parte visual do projeto e diagramação",
+        tools: ['PHP', 'WordPress', 'JavaScript'],
+        role: 'Desenvolvimento FullStack',
+        code: 'privado',
+        demo: 'https://vipplanos.com.br/',
+        image: crefin,
+
+    },
 ];
 
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },

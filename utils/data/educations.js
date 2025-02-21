@@ -8,13 +8,13 @@ export const educations = [
   {
     id: 2,
     title: "Formação em Java Backend",
-    duration: "2024",
+    duration: "01 - 2024 | 05 - 2024",
     institution: "Unico Skill Content Bundle  e Soul Code Academy",
   },
   {
     id: 3,
-    title: "Formação em Metodologias Ágeis",
-    duration: "2023",
-    institution: "Alura",
+    title: "DESENVOLVIMENTO BACKEND JAVA",
+    duration: "12 - 2024 | 12 - 2024",
+    institution: "Unico Skill Content Bundle Udemy Code",
   }
 ]
