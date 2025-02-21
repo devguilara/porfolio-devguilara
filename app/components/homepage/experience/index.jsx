@@ -35,7 +35,7 @@ function Experience() {
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
              <Image
-             src={"/learning.gif"}
+             src={"/gummy-coding.svg"}
               alt="Hero"
               width={540}
               height={360}
