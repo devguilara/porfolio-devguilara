@@ -1,9 +1,8 @@
 export const skillsData = [
   'Java',
   'Javascript',
-  'Typescript',
-  'Next JS',
   'PHP',
+  'Laravel',
   'Docker',
   'MySQL',
   'PostgreSQL',
