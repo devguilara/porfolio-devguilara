@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Guilherme Lara",
-  profile: '/profile.jpg',
+  profile: '/profile.jpeg',
   designation: "Desenvolvedor Backend",
   description: "Sou desenvolvedor backend com foco em Java, com experiência em criação de sistemas robustos, escaláveis e de alta performance. Ofereço soluções sob medida para projetos web, APIs REST, integrações com bancos de dados, e aplicações corporativas utilizando frameworks modernos como Spring Boot e Hibernate. Foco em qualidade de código, entrega dentro do prazo e satisfação do cliente. Precisa de um profissional confiável para o seu projeto em Java? Vamos conversar!",
   email: 'guilhermelara.developer@outlook.com',
