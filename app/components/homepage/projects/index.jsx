@@ -5,6 +5,7 @@ import { projectsData } from '@/utils/data/projects-data';
 import ProjectCard from './project-card';
 
 const Projects = () => {
+
   return (
     <div id="projects" className="relative z-50 my-12 lg:my-24">
       {/* Cabeçalho */}
@@ -19,15 +20,16 @@ const Projects = () => {
       </div>
 
       {/* Lista de Projetos */}
-      <div className="pt-24 relative">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {projectsData.map((project, index) => (
+      <div className="pt-24">
+        <div className="flex flex-col gap-6">
+          {projectsData.slice(0, 5).map((project, index) => (
             <div
-              id={`project-card-${index}`}
+              id={`sticky-card-${index + 1}`}
               key={index}
-              className="w-full mx-auto max-w-2xl transform transition-all duration-500 hover:scale-105"
+              className="relative w-full mx-auto max-w-2xl transform transition-all duration-[0.5s] hover:scale-105"
             >
-              <div className="box-border flex items-center justify-center rounded shadow-lg bg-[#1a1443] p-6">
+              {/* Aplicando sticky ao contêiner com z-index e ajuste do layout */}
+              <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s] sticky top-6 z-10">
                 <ProjectCard project={project} />
               </div>
             </div>
