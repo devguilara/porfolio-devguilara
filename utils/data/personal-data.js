@@ -1,21 +1,13 @@
 export const personalData = {
   name: "Guilherme Lara",
   profile: "/profile.jpeg",
-  designation: "Desenvolvedor Web | Full Stack Developer",
+  designation: "Desenvolvedor Full Stack",
   description: `
-  💻 Desenvolvedor Full Stack | Especialista em Sistemas Web e APIs Escaláveis  
+  Desenvolvedor Full Stack com experiência na criação de sistemas web escaláveis, seguros e de alta performance.  
+  Especializado em Laravel para backend e APIs REST em Java, atuo desde a modelagem do banco de dados até a entrega de interfaces intuitivas e responsivas.  
 
-  Sou um desenvolvedor full stack apaixonado por tecnologia, especializado na criação de sistemas robustos, escaláveis e de alta performance.  
-  Com expertise em **Laravel no backend** e **desenvolvimento de APIs REST em Java**, construo soluções eficientes e seguras para empresas que buscam inovação digital.  
-
-  ✨ **O que eu ofereço?**  
-  ✔️ **Desenvolvimento Full Stack** – Criação de aplicações completas, do frontend dinâmico ao backend estruturado.  
-  ✔️ **APIs poderosas e escaláveis** – Construção de **APIs REST com Java** para integração eficiente entre sistemas.  
-  ✔️ **Sistemas robustos com Laravel** – Desenvolvimento de aplicações personalizadas, otimizadas e seguras.  
-  ✔️ **Banco de Dados e Regra de Negócio** – Modelagem eficiente, otimização de queries e implementação de regras de negócio inteligentes.  
-  ✔️ **Experiência completa em UI/UX** – Desenvolvimento frontend responsivo, dinâmico e intuitivo para melhorar a experiência do usuário.  
-
-  🚀 **Precisa de um desenvolvedor confiável para criar ou otimizar seu sistema web? Vamos conversar!**
+  Foco em código limpo, eficiência e soluções personalizadas para atender às necessidades do seu projeto.  
+  Se precisa de um profissional comprometido para desenvolver ou otimizar seu sistema, vamos conversar!
   `,
   email: "guilhermelara.developer@outlook.com",
   phone: "+55 14 99148-7784",
