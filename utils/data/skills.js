@@ -7,4 +7,7 @@ export const skillsData = [
   'MySQL',
   'PostgreSQL',
   'Git',
+  'tailwind', 
+  'vitejs',
+  'wordpress',
 ]
